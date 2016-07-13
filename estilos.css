@@ -1,1 +1,13 @@
-h4 {color: #f90000;}
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+h4 {
+    font-family: Raleway;
+    color: #f90000;
+    }
+
+#nav_top  a {
+    text-decoration: none;
+
+}
+
+#nav_top ul li {display: inline;}
