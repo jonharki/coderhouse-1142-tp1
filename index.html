@@ -181,4 +181,32 @@
         
     </body>
 </html>
-        
+
+<!--
+    Correcciones:
+    *************
+    
+    Está bastante bien en líneas generales, aunque a veces noto que hay demasiados tags para algo que
+    podría resolverse con menos. Tratá de apuntar a algo minimalista, que solamente defina estructura
+    y contenido, y prestale mucha atención a la semántica de los elementos. No hace falta definir nada
+    visual en el documento HTML, eso lo podemos manipular pura y exclusivamente con CSS.
+    
+    Te dejo algunos puntos a revisar:
+    
+    * Convencionalmente se usa el tag <h1> para el logo.
+    * Cuidado con tantos saltos de línea, a veces pueden complicar la lectura del documento.
+    * En el header principal hay un "/ id>" al final de la imagen que probablemente sea un
+      error de tipeo. Hay algo similar en la línea 148.
+    * <button> no sirve para enviar un formulario, solamente para que el texto se muestre como un botón.
+    * Nombres para IDs como "section_1" y "section_2" no están precisamente mal en un contexto en el que
+      todavía no se sabe bien qué va a haber dentro del tag, pero conviene evitarlos al desarrollar sitios
+      reales. Una excepción son las listas, donde se pueden usar nombres como estos sin problemas.
+    * Haría un uso más fuerte de clases para poder identificar mejor qué es cada componente del documento.
+    * Si dentro de un <div> va a haber solamente un <header>, en la mayoría de los casos conviene dejar
+      solamente el <header> sin un contenedor adicional.
+    * <hgroup> no se considera parte de HTML5, y varios browsers pueden no soportarlo. Fue un tag experimental
+      que se removió de la especificación final.
+    * El tag <hr /> sirve sobre todo para separar elementos similares dentro de un mismo nivel. Si solamente
+      hay un elemento dentro de un bloque, puede que <hr /> no haga demasiada falta (ver líneas 159-163). Tampoco
+      conviene usarlo al principio de un contenedor, porque todavía no hay nada que separar (línea 64).
+-->
