@@ -274,6 +274,7 @@ h2 {
     overflow: hidden;
     margin: auto;
     background-image: url(imagenes/pricing-bg1.jpg);
+    background-size: contain;
     background-repeat: no-repeat;
     
 }
@@ -449,7 +450,7 @@ footer nav {
 
 button a:visited {color:white}
 
-button a:hover {font-size: 12px; }
+button:hover {transform: scale(1.05); }
 
 #nav_list  a:visited {color: black}
 
@@ -457,8 +458,8 @@ button a:hover {font-size: 12px; }
 
 #nav_list a:hover {color: grey;}
 
-a {
-transition: font-size 0.2s linear 0s, color 0.15s linear 0ms}
+button {
+transition: transform 0.1s linear 0s, color 0.1s linear 0ms}
 
 .iconos:hover {
     transform: scale(1.25);}
@@ -466,5 +467,130 @@ transition: font-size 0.2s linear 0s, color 0.15s linear 0ms}
 .iconos {
     transition: transform 0.5s ease-in-out 0s;
    }
+   
+#submit_button:hover  {transform: scale(1.05);
 
-  
+transition: transform 0.1s linear 0s;
+}   
+
+#title {
+    background-image: url(imagenes/indexbanner-bg2.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Raleway;
+    text-align: center;
+    height:300px;
+    padding-top: 120px;
+    margin-top: 20px;
+       
+}
+
+#title h1 {
+    font-weight: bold;
+    font-size: 25px;
+    }
+    
+#title_form {
+    color: black;
+    font-family: Raleway;
+    text-align: center;
+    height:100px;
+    padding-top: 50px;
+    margin-top: 20px;
+    width: ;
+    margin: auto;
+}
+
+#formulario {
+    width: 70%;
+    margin: auto;
+    height: 400px;
+}
+
+.data {
+    width: 50%;
+    float: left;
+    height: 200px;
+}
+
+
+
+#form [type="submit"] {
+    height: 50px;
+    color: white;
+    background-color: #00b2f2;
+    width: 10%;
+    margin-right: 0px;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px;
+}
+
+#formulario [type="text"] {
+    width: 95%;
+    height: 45px;
+    margin-left: 0px;
+    padding-left: 0px;  
+    border: 1px solid #D3D9DB;
+    font-size: 15px;
+    font-family: Raleway; 
+}
+
+#message {
+    width:472.14px;
+    height: 178px;;
+    font-size: 15px;
+    font-family: Raleway;
+    float: right;
+    text-align: right:
+     
+       
+}
+
+#message_area {
+    width: 50%;
+    height: 100%;
+    font-size: 15px;
+    font-family: Raleway;
+    float: right;
+    height: 200px;
+   
+    
+}
+    
+}
+
+
+#formulario {
+    margin-top: -25px;
+}
+
+#formulario [type="submit"] :hover {
+    font-size: 20px;
+}
+
+#submit_button {
+    background-color:#00b2f2;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 0px;
+    padding: auto;    
+    clear: both;
+}
+
+#button {
+    width: 100%;
+    margin-top:-40px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    text-align:center;
+    
+}
