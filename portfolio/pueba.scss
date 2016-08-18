@@ -1,0 +1,23 @@
+$main-color: blue;
+$secondary-color: yellow;
+html {background-color: $main-color;
+   header {
+       background-color: green;
+       .logo {
+           float: left;
+           align-items: center;
+           margin:auto;}
+       .nav_top {
+           float: right;
+           margin: auto;
+           align-items: center;
+           .ul {
+                list-style: none;
+                display: inline;
+                li{
+                    text-decoration: none;
+                    color: red;
+                }
+           }}
+       }    
+   }

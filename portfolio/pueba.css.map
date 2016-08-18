@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAK;EAAC,gBAAgB,EAFT,IAAI;EAGb,MAAE;IAAC,OAAO,EAAC,IAAI;IACf,WAAK;MACD,MAAM,EAAE,SAAS;MACjB,YAAY,EANP,IAAI",
+"sources": ["pueba.scss"],
+"names": [],
+"file": "pueba.css"
+}
